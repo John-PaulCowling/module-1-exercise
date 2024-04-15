@@ -24,6 +24,5 @@ class Person implements Iperson
 }
 
 new Person("Fred",1,"fred@gmail.com").sayHello()
-
 new Person("Frank",1,"Frank@gmail.com").sayHello()
 new Person("Sam",1,"Sam@gmail.com").sayHello()
