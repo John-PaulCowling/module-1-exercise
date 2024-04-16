@@ -4,8 +4,8 @@ function calculateSquare (value:number):number{
 
 console.log(calculateSquare(3))
 
-function calculateTriangleArea (base:number, height:number):number{
+const calculateTriangleArea = (base:number, height:number):number => {
     return base * height / 2
 }
 
-console.log(calculateTriangleArea(5,10))
+console.log(`Area is ${calculateTriangleArea(5,10)}`)
