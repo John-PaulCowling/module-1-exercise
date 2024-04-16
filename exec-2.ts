@@ -6,16 +6,7 @@ interface Iperson{
 
 class Person implements Iperson
 {
-    name:string
-    age:number
-    email:string
-
-    constructor(name: string, age:number, email: string)
-    {
-        this.name = name
-        this.age = age
-        this.email = email
-    }
+    constructor(public name: string, public age:number, public email: string) { }
 
     sayHello(): void {
         console.log(`Hello ${this.name}` )
